@@ -1,0 +1,85 @@
+body{
+    background-color: #ffffff;
+    padding: 0%;
+    margin: 0%;
+    
+}
+::selection{
+    background-color: black;
+    color: whitesmoke;
+}
+header{
+    position: fixed;
+
+    display: grid;
+    background-color: white;
+    height: 65px;
+    width: 100%;
+    grid-template-columns: 25% 50% 25%;
+    box-shadow: 0px 2px 50px black;
+
+}
+#big-contener{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    padding:4px;
+    background-color: #ab7cda;
+}
+#paragraphs-haed{
+    font-size: 50px;
+ 
+}
+nav{
+    width: 100%;
+    border-width: 5px;
+    border-color: black;
+}
+.mid-section{
+    display: grid;
+    grid-template-rows: 25% 50% 25%;
+}
+select{
+    font-size: 20px;
+    background-color: #b4d5f0;
+    width: 100%;
+    height: 100%;
+}
+#contener{
+    border: 2px solid;
+    padding: 0 10px;
+    width: 100%;
+    margin-top:65px ;
+    background-color: #b4d5f0;
+    font-size: 16px;
+}
+p{
+    font-size: 22px;
+}
+hr{
+    border-color: black;
+}
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    background-color: azure;
+}
+#back{
+    height: 50px;
+    width: 50px;
+    border: none;
+    background-color: #ab7cda;
+    border-radius: 50%;
+    font-size: 30px;
+    position: fixed;
+    bottom: 15px;
+    right:15px ;
+    padding: 0;
+}
+#back:hover{
+    background-color:  #8e67b4;
+}
+#back:active{
+    background-color:  #735392;
+}
